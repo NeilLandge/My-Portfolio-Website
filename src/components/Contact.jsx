@@ -68,7 +68,7 @@ const Contact = () => {
                 <span className="text-white group-hover:text-cyan-400 transition-colors">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/neil-landge"
+                href="https://www.linkedin.com/in/neillandgepune/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-all duration-300 border border-slate-700 hover:border-cyan-400/50 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-1"
