@@ -19,6 +19,13 @@ const Hero = () => {
     }
   };
 
+  const scrollToProjects = () => {
+    const element = document.getElementById('projects');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
       {/* Animated gradient orbs */}
@@ -78,7 +85,7 @@ const Hero = () => {
                 <Github className="text-white group-hover:text-cyan-400 transition-colors" size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/neillandgepune/"
+                href="https://linkedin.com/in/neil-landge"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-all duration-300 border border-slate-700 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-1"
@@ -127,7 +134,7 @@ const Hero = () => {
 
       <button
         onClick={scrollToAbout}
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-cyan-400 hover:text-cyan-300 transition-all duration-300 cursor-pointer hover:scale-110 hover:translate-y-1 p-8 -m-4 z-50"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-cyan-400 hover:text-cyan-300 transition-colors cursor-pointer animate-bounce hover:animate-none hover:scale-110"
       >
         <ChevronDown size={32} />
       </button>
