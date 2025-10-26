@@ -17,18 +17,6 @@ const Projects = () => {
       liveLink: 'https://budget-pro-amber.vercel.app/'
     },
     {
-      title: 'FloatChat AI - ARGO Float Explorer',
-      description: [
-        'Created an AI-powered app for oceanographic data exploration and visualization of ARGO floats',
-        'Built a Streamlit dashboard with interactive graphs, trajectory mapping, and time-series visualizations',
-        'Integrated AI-powered RAG system to answer natural language queries using PostgreSQL and semantic indexing',
-        'Automated parsing and processing of ARGO NetCDF files with quality control and validation'
-      ],
-      technologies: ['Python', 'Streamlit', 'RAG', 'PostgreSQL', 'NetCDF'],
-      githubLink: 'https://github.com/NeilLandge/FloatChat-AI-Argo-Float-Explorer',
-      liveLink: null
-    },
-    {
       title: 'Hospital Management System',
       description: [
         'Developed a Java-Swing based application to manage patients, doctors, appointments, and billing efficiently',
@@ -63,6 +51,19 @@ const Projects = () => {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubLink: 'https://github.com/NeilLandge/HTML-Poster-Editor',
       liveLink: 'https://html-poster-editor-six.vercel.app/'
+    },
+
+    {
+      title: 'FloatChat AI - ARGO Float Explorer(SIH Hackathon Project)',
+      description: [
+        'Created an AI-powered app for oceanographic data exploration and visualization of ARGO floats',
+        'Built a Streamlit dashboard with interactive graphs, trajectory mapping, and time-series visualizations',
+        'Integrated AI-powered RAG system to answer natural language queries using PostgreSQL and semantic indexing',
+        'Automated parsing and processing of ARGO NetCDF files with quality control and validation'
+      ],
+      technologies: ['Python', 'Streamlit', 'RAG', 'PostgreSQL', 'NetCDF'],
+      githubLink: 'https://github.com/NeilLandge/FloatChat-AI-Argo-Float-Explorer',
+      liveLink: null
     }
   ];
 
