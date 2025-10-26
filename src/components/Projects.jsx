@@ -48,7 +48,7 @@ const Projects = () => {
         'Export functionality for high-quality poster downloads',
         'Responsive design for seamless editing across devices'
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],
+      technologies: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
       githubLink: 'https://github.com/NeilLandge/HTML-Poster-Editor',
       liveLink: 'https://html-poster-editor-six.vercel.app/'
     },
