@@ -85,7 +85,7 @@ const Hero = () => {
                 <Github className="text-white group-hover:text-cyan-400 transition-colors" size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/neil-landge"
+                href="https://www.linkedin.com/in/neillandgepune/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-all duration-300 border border-slate-700 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-1"
@@ -104,7 +104,7 @@ const Hero = () => {
 
             <div className="flex gap-4 justify-center lg:justify-start animate-fade-in-up delay-500">
               <button
-                onClick={scrollToAbout}
+                onClick={scrollToProjects}
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:-translate-y-1"
               >
                 View My Work
@@ -134,7 +134,7 @@ const Hero = () => {
 
       <button
         onClick={scrollToAbout}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-cyan-400 hover:text-cyan-300 transition-colors cursor-pointer animate-bounce hover:animate-none hover:scale-110"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-cyan-400 hover:text-cyan-300 transition-all duration-300 cursor-pointer hover:scale-110 hover:translate-y-1 p-8 -m-4 z-50"
       >
         <ChevronDown size={32} />
       </button>
