@@ -54,7 +54,7 @@ const Projects = () => {
     },
 
     {
-      title: 'FloatChat AI - ARGO Float Explorer(SIH Hackathon Project)',
+      title: 'FloatChat AI (SIH Hackathon Project)',
       description: [
         'Created an AI-powered app for oceanographic data exploration and visualization of ARGO floats',
         'Built a Streamlit dashboard with interactive graphs, trajectory mapping, and time-series visualizations',
