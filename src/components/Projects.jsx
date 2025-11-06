@@ -14,7 +14,7 @@ const Projects = () => {
       ],
       technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Chart.js'],
       githubLink: 'https://github.com/NeilLandge/BudgetPro',
-      liveLink: 'https://budget-pro-amber.vercel.app/'
+      liveLink: 'https://budget-pro-neil-landges-projects.vercel.app/'
     },
     {
       title: 'Hospital Management System',
